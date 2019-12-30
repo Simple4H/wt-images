@@ -15,5 +15,4 @@
 
 ### 联系我们
 - 前端开发总工程师
-![涛哥](https://wtimages.cxm520hyq.com/WechatIMG28.jpeg){:height="200" width="200"}
-
+![涛哥](https://wtimages.cxm520hyq.com/WechatIMG28.jpeg?imageView/2/w/200/q/90)
