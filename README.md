@@ -15,7 +15,7 @@
 - `Mybatis-PageHelper`：MyBatis 分页插件 - PageHelper，https://github.com/pagehelper/Mybatis-PageHelper
 
 ### 特殊的
-- 请修改application 为pord
+- 请修改application prod
 
 ### 联系我们
 - 前端开发总工程师<br>
