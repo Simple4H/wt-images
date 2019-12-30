@@ -14,8 +14,8 @@ simple4h:
   storage:
     qiniu:
       endpoint: https://wtimages.cxm520hyq.com
-      accessKey: 08boC1zdPtkc6PBIGeZ-_UAzan4QE_Fr112nFk4_
-      secretKey: 5gc0PrtwbrmbwreLmu2y0J37RQoHlZAT6BS13MG_
+      accessKey: "***************"
+      secretKey: "***************"
       bucketName: wt-images
 
 mybatis:
