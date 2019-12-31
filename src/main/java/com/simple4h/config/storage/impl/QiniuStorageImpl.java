@@ -1,4 +1,4 @@
-package com.simple4h.storage.impl;
+package com.simple4h.config.storage.impl;
 
 import com.qiniu.common.QiniuException;
 import com.qiniu.http.Response;
@@ -6,8 +6,8 @@ import com.qiniu.storage.BucketManager;
 import com.qiniu.storage.Configuration;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.util.Auth;
-import com.simple4h.storage.IStorageService;
-import com.simple4h.storage.config.QiniuStorageProperties;
+import com.simple4h.config.storage.IStorageService;
+import com.simple4h.config.storage.config.QiniuStorageProperties;
 import com.simple4h.utils.SpringContextUtil;
 import lombok.Data;
 import org.springframework.core.io.Resource;

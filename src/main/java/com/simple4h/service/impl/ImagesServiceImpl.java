@@ -3,7 +3,7 @@ package com.simple4h.service.impl;
 import com.simple4h.dao.WtStorageMapper;
 import com.simple4h.domain.WtStorage;
 import com.simple4h.service.IImagesService;
-import com.simple4h.storage.IStorageService;
+import com.simple4h.config.storage.IStorageService;
 import com.simple4h.utils.CharUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

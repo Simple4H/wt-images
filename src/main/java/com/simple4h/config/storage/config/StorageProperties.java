@@ -1,4 +1,4 @@
-package com.simple4h.storage.config;
+package com.simple4h.config.storage.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

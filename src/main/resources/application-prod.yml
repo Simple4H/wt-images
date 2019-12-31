@@ -17,6 +17,13 @@ simple4h:
       accessKey: "***************"
       secretKey: "***************"
       bucketName: wt-images
+  wx:
+    miniapp:
+      appid: 111
+      secret: 111
+      token: 111
+      aesKey: 111
+      msgDataFormat: JSON
 
 mybatis:
   mapper-locations: classpath:mappers/*.xml

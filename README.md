@@ -12,7 +12,8 @@
 - 修改application.yml中七牛云的配置
 
 ### 感谢
-- `Mybatis-PageHelper`：MyBatis 分页插件 - PageHelper，https://github.com/pagehelper/Mybatis-PageHelper
+- `Mybatis-PageHelper`，MyBatis 分页插件 PageHelper -- https://github.com/pagehelper/Mybatis-PageHelper
+- `WxJava`：WxJava （微信开发 Java SDK）-- https://github.com/Wechat-Group/WxJava
 
 ### 特殊的
 - 请修改application prod

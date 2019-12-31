@@ -1,4 +1,4 @@
-package com.simple4h.storage;
+package com.simple4h.config.storage;
 
 import org.springframework.core.io.Resource;
 
