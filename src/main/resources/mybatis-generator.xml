@@ -56,7 +56,10 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.simple4h.dao"
                              targetProject="src/main/java"/>
 
-        <table tableName="wt_storage">
+<!--        <table tableName="wt_storage">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+        <table tableName="wt_category">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
 
