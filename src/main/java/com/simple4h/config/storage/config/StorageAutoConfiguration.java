@@ -1,6 +1,6 @@
-package com.simple4h.storage.config;
+package com.simple4h.config.storage.config;
 
-import com.simple4h.storage.impl.QiniuStorageImpl;
+import com.simple4h.config.storage.impl.QiniuStorageImpl;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
