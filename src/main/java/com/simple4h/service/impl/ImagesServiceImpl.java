@@ -26,9 +26,9 @@ public class ImagesServiceImpl implements IImagesService {
 
     @Override
     public String uploadImage(InputStream inputStream, long contentLength, String contentType, String fileName) {
+        String key = generateKey(fileName);
 
         WtStorage wtStorage = new WtStorage();
-        String key = CharUtil.getRandomString(8) + "_" + fileName;
         wtStorage.setKey(key);
         wtStorage.setName(fileName);
         wtStorage.setType(contentType);
@@ -40,5 +40,11 @@ public class ImagesServiceImpl implements IImagesService {
 
         iStorageService.store(inputStream, contentLength, contentType, key);
         return wtStorage.getUrl();
+    }
+
+    private String generateKey(String fileName) {
+        int index = fileName.lastIndexOf('.');
+        String suffix = fileName.substring(index);
+        return CharUtil.getRandomString(8) + "_" + suffix;
     }
 }
